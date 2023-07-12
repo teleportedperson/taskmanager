@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Menu</title>
+    <link href="add.css" rel="stylesheet" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav id="main-menu">
+      <ul>
+        <li><a href="mainmenu.html">Tasks</a></li>
+        <li><a href="addtasks.html">Add</a></li>
+        <li><a href="completedTasks.html">Completed</a></li>
+      </ul>
+    </nav>
+    
+    <input type="checkbox" id="hamburger-input" class="burger-shower" />
+    <label id="hamburger-menu" for="hamburger-input">
+      <nav id="sidebar-menu">
+        <h3>Sticky Notes</h3>
+        <ul>
+          <li><a href="mainmenu.html">Tasks</a></li>
+        <li><a href="addtasks.html">Add</a></li>
+        <li><a href="completedTasks.html">Completed</a></li>
+        </ul>
+      </nav>
+    </label>
+  
+    <div class="overlay"></div>
+    
+    <div class="container">
+        <div class="Tasks">
+            <h1>
+                Your Tasks
+            </h1>
+                <ul id="list-container">
+                    <!--<li class="checked">Task 1</li>
+                    <li class="unchecked">Task 2</li>
+                    <li>Task 3</li>
+                    <li>Task 4</li>
+                    <li>Task 5</li> -->
+                  </ul>
+            </div>
+        </div>
+    </div>
+  
+
+    
+   
+    <script src="script.js"></script>
+    <script>
+
