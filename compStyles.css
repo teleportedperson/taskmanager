@@ -82,6 +82,20 @@ ul li:hover{
     background-color: rgb(221, 235, 236);
 
 }
+ul li.unchecked{
+    padding:5px;
+    font-size: 22px;
+    position: relative;
+    list-style-type: none;
+  
+  
+   }
+  
+   ul li.checked{
+    color: #e73c7e;
+    text-decoration: line-through;
+   }
+  
 
  ul li span{
   position: absolute;
@@ -108,7 +122,7 @@ ul li:hover{
   margin-right: auto;
   margin-top: 5%;
   box-shadow: 20px 20px 60px rgb(47, 49, 79);
-  z-index: -1;
+
  }
 
 
