@@ -33,11 +33,13 @@
     </label>
   
     <div class="overlay"></div>
-    
+   
     <div class="container">
+      <form action="" id="tasks">
       <div class="todo">
         <h1>Add your tasks</h1>
         <div class="row">
+          
           <input type="text" id="todo_input" placeholder="Add your tasks">
           <button class= "add" onclick="addTask()">Add</button>
         </div>
@@ -49,8 +51,12 @@
           <li>Task 5</li> -->
         </ul>
       </div>
-    
+    </form>
+
     </div>
-    <script src="add.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./mail.js"></script>
+    <script src="script.js"></script>
 
     </body>
